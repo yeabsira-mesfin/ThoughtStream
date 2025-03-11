@@ -15,6 +15,6 @@
 To get the project up and running locally, follow these steps:
 
 Clone the repository:
-   ``bash
+   ```bash
    git clone https://github.com/yourusername/ThoughtStream.git
 

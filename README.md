@@ -2,6 +2,7 @@
 
 **ThoughtStream** is a simple app that allows users to share their thoughts and ideas. Built with React and powered by Vite, ThoughtStream offers a smooth and fast user experience for posting and interacting with content.
 
+
 ## Features:
  ✏️ Add and view posts with a name and message.
  🌟 Simple and intuitive UI for easy posting.

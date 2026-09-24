@@ -6,7 +6,10 @@ from app.models import Finding, Severity
 
 SEVERITY_ORDER = {
     "CRITICAL": Severity.CRITICAL,
+    "ERROR": Severity.HIGH,
     "HIGH": Severity.HIGH,
+    "WARNING": Severity.MEDIUM,
+    "WARN": Severity.MEDIUM,
     "MEDIUM": Severity.MEDIUM,
     "MODERATE": Severity.MEDIUM,
     "LOW": Severity.LOW,

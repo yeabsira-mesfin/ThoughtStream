@@ -1,0 +1,14 @@
+{
+  "results": [
+    {
+      "check_id": "javascript.express.security.audit.xss.direct-response-write",
+      "path": "src/routes/profile.js",
+      "start": {"line": 18},
+      "extra": {
+        "severity": "WARNING",
+        "message": "Untrusted data is written directly to a response.",
+        "metadata": {"cwe": ["CWE-79"]}
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Results": [
+    {
+      "Target": "package-lock.json",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2099-0001",
+          "PkgName": "demo-package",
+          "Severity": "HIGH",
+          "Title": "Demonstration dependency advisory",
+          "FixedVersion": "2.0.0",
+          "CVSS": {"nvd": {"V3Score": 8.1}}
+        }
+      ]
+    }
+  ]
+}

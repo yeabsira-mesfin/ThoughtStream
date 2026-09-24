@@ -1,0 +1,17 @@
+{
+  "site": [
+    {
+      "@name": "http://localhost:3000",
+      "alerts": [
+        {
+          "name": "Content Security Policy Header Not Set",
+          "riskdesc": "Medium (High)",
+          "cweid": "693",
+          "desc": "A demonstration web security header finding.",
+          "solution": "Define and test a restrictive Content-Security-Policy.",
+          "instances": [{"uri": "http://localhost:3000/"}]
+        }
+      ]
+    }
+  ]
+}
